@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T10:12:40.542Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LxNgnfcRIHAmXClXgtIU" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-07T10:29:19.309Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="OXlecUmK_HKYWOxCz8cj" version="21.6.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2901" dy="1046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -133,6 +133,9 @@
         <mxCell id="FOTZAg4N7YXumiFNj8jS-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FOTZAg4N7YXumiFNj8jS-46" target="FOTZAg4N7YXumiFNj8jS-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="FOTZAg4N7YXumiFNj8jS-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FOTZAg4N7YXumiFNj8jS-46" target="FOTZAg4N7YXumiFNj8jS-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FOTZAg4N7YXumiFNj8jS-46" value="JUMPER BUILD BOARD" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1080" y="1102.5" width="125" height="125" as="geometry" />
         </mxCell>
@@ -148,8 +151,61 @@
         <mxCell id="FOTZAg4N7YXumiFNj8jS-51" value="Move to &quot;WITH DEV&quot;&lt;br&gt;(raise in jumperdev slack channel, discuss with dev, if needed look into creation of separate FT ticket)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1830" y="1107.5" width="190" height="115" as="geometry" />
         </mxCell>
+        <mxCell id="FOTZAg4N7YXumiFNj8jS-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FOTZAg4N7YXumiFNj8jS-53" target="FOTZAg4N7YXumiFNj8jS-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FOTZAg4N7YXumiFNj8jS-53" value="Move to &quot;CODING&quot;&lt;br&gt;Here you are actively working in Jumper to build the connector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1450" y="740" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTZAg4N7YXumiFNj8jS-58" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FOTZAg4N7YXumiFNj8jS-55" target="FOTZAg4N7YXumiFNj8jS-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTZAg4N7YXumiFNj8jS-65" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FOTZAg4N7YXumiFNj8jS-55" target="FOTZAg4N7YXumiFNj8jS-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1143" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOTZAg4N7YXumiFNj8jS-55" value="Is something external &lt;br&gt;blocking your work (e.g. API issues with permissions, app etc.)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1032.5" y="820" width="220" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTZAg4N7YXumiFNj8jS-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FOTZAg4N7YXumiFNj8jS-57" target="FOTZAg4N7YXumiFNj8jS-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1525" y="925" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOTZAg4N7YXumiFNj8jS-57" value="Move to &quot;BLOCKED&quot; and resolve problem&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1340" y="895" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTZAg4N7YXumiFNj8jS-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FOTZAg4N7YXumiFNj8jS-66" target="FOTZAg4N7YXumiFNj8jS-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTZAg4N7YXumiFNj8jS-66" value="Move to &quot;AWAITING TESTING&quot;&lt;br&gt;Once you have finalised the connector and are happy it works; Provide any relevant information in ticket (e.g. which reports support incremental and on which columns); Provide 1Password creds for testing in ticket; Add secrets to AWS Dev Secrets manager if needed&lt;br&gt;&lt;br&gt;Here QA take over and to tests in Dev (they will move ticket to &quot;TESTING&quot; when they start work)&lt;br&gt;&lt;br&gt;You can already start working on Docs for connector in ReadMe" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1412.5" y="460" width="225" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTZAg4N7YXumiFNj8jS-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FOTZAg4N7YXumiFNj8jS-68" target="FOTZAg4N7YXumiFNj8jS-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTZAg4N7YXumiFNj8jS-68" value="Once QA are done with Dev tests, they will move ticket to &quot;AWAITING DEPLOYMENT&quot;&lt;br&gt;&lt;br&gt;You pick up ticket again: deploy connector in Prod; work on any setup that might be needed for connector to work in Prod (e.g. working with Dev on adding secrets in Prod AWS Secrets Manager)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1425" y="240" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTZAg4N7YXumiFNj8jS-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FOTZAg4N7YXumiFNj8jS-70" target="FOTZAg4N7YXumiFNj8jS-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTZAg4N7YXumiFNj8jS-70" value="Move ticket to &quot;DEPLOYED&quot;&amp;nbsp;&lt;br&gt;Once you have finalised any potential work needed for connector to be working in Prod" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1450" y="50" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTZAg4N7YXumiFNj8jS-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FOTZAg4N7YXumiFNj8jS-72" target="FOTZAg4N7YXumiFNj8jS-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTZAg4N7YXumiFNj8jS-72" value="Once Prod tests done QA will move ticket to &quot;AWAITING DOCS&quot; if they are happy all tests working correctly&lt;br&gt;&lt;br&gt;Make sure docs are finalized and updated if any changes needed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1710" y="28.75" width="170" height="152.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FOTZAg4N7YXumiFNj8jS-74" value="Move to &quot;DONE&quot;&lt;br&gt;when docs are finalized and you have published them&lt;br&gt;&lt;br&gt;CONGRATS! You built a connector. A message will go out in release_updates slack; CS will discuss with clients and they will start using connector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1707.5" y="250" width="175" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
