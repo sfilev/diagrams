@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T10:29:19.309Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="OXlecUmK_HKYWOxCz8cj" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-07T10:33:50.826Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="02v6ellq2m6NxIh7FgwR" version="21.6.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2901" dy="1046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,7 +90,7 @@
         <mxCell id="FOTZAg4N7YXumiFNj8jS-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FOTZAg4N7YXumiFNj8jS-30" target="FOTZAg4N7YXumiFNj8jS-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FOTZAg4N7YXumiFNj8jS-30" value="Move ticket to &quot;UNBLOCKED-AWAITING SPEC&quot;&lt;br&gt;(you are not working on it, just as you have not yet picked it up == nothing is blocking you but time)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FOTZAg4N7YXumiFNj8jS-30" value="Move ticket to &quot;UNBLOCKED-AWAITING SPEC&quot;&lt;br&gt;(you are not working on it, just because you have not yet picked it up == nothing is blocking you but time)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="30" y="880" width="190" height="110" as="geometry" />
         </mxCell>
         <mxCell id="FOTZAg4N7YXumiFNj8jS-38" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FOTZAg4N7YXumiFNj8jS-35" target="FOTZAg4N7YXumiFNj8jS-37">
@@ -148,7 +148,14 @@
         <mxCell id="FOTZAg4N7YXumiFNj8jS-49" value="Do you need Dev assistance (e.g. new block created)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1410" y="1055" width="230" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="FOTZAg4N7YXumiFNj8jS-51" value="Move to &quot;WITH DEV&quot;&lt;br&gt;(raise in jumperdev slack channel, discuss with dev, if needed look into creation of separate FT ticket)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FOTZAg4N7YXumiFNj8jS-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FOTZAg4N7YXumiFNj8jS-51" target="FOTZAg4N7YXumiFNj8jS-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1910" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOTZAg4N7YXumiFNj8jS-51" value="Move to &quot;WITH DEV&quot;&lt;br&gt;(raise in jumperdev slack channel, discuss with dev, if needed look into creation of separate FT ticket). Collaborate so the blocker is resolved" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1830" y="1107.5" width="190" height="115" as="geometry" />
         </mxCell>
         <mxCell id="FOTZAg4N7YXumiFNj8jS-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FOTZAg4N7YXumiFNj8jS-53" target="FOTZAg4N7YXumiFNj8jS-66">
@@ -195,8 +202,8 @@
         <mxCell id="FOTZAg4N7YXumiFNj8jS-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FOTZAg4N7YXumiFNj8jS-70" target="FOTZAg4N7YXumiFNj8jS-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FOTZAg4N7YXumiFNj8jS-70" value="Move ticket to &quot;DEPLOYED&quot;&amp;nbsp;&lt;br&gt;Once you have finalised any potential work needed for connector to be working in Prod" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1450" y="50" width="150" height="110" as="geometry" />
+        <mxCell id="FOTZAg4N7YXumiFNj8jS-70" value="Move ticket to &quot;DEPLOYED&quot;&amp;nbsp;&lt;br&gt;Once you have finalised any potential work needed for connector to be working in Prod; &lt;br&gt;&lt;br&gt;QA will start testing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1445" y="45" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="FOTZAg4N7YXumiFNj8jS-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FOTZAg4N7YXumiFNj8jS-72" target="FOTZAg4N7YXumiFNj8jS-74">
           <mxGeometry relative="1" as="geometry" />
